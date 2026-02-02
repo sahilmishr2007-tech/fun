@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fun App</title>
+</head>
+
+<body>
+
+<div id="box">
+  <h2>Kya aap gay ho? 🤔</h2>
+
+  <button id="yes">YES</button>
+  <button id="no">NO</button>
+</div>
+
+<script>
+  function showResult() {
+    document.getElementById("box").innerHTML =
+      "<h1>🎉 Congratulations 🎉</h1><h2>Aap gay ho 😄</h2>";
+  }
+
+  document.getElementById("yes").onclick = showResult;
+  document.getElementById("no").onclick  = showResult;
+</script>
+
+</body>
+</html>
